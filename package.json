@@ -2,9 +2,10 @@
   "name": "mailbox",
   "version": "1.0.0",
   "description": "",
-  "main": "Gulpfile.js",
+  "main": "./server/mailbox.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/app.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,8 @@
   },
   "dependencies": {
     "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "handlebars": "^4.0.11",
     "path": "^0.12.7"
   }
 }
